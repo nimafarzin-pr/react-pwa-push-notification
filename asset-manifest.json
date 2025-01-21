@@ -2,7 +2,6 @@
   "files": {
     "main.css": "/react-pwa-push-notification/static/css/main.e6c13ad2.css",
     "main.js": "/react-pwa-push-notification/static/js/main.fdbc5da9.js",
-    "service-worker.js": "/react-pwa-push-notification/service-worker.js",
     "index.html": "/react-pwa-push-notification/index.html",
     "main.e6c13ad2.css.map": "/react-pwa-push-notification/static/css/main.e6c13ad2.css.map",
     "main.fdbc5da9.js.map": "/react-pwa-push-notification/static/js/main.fdbc5da9.js.map"
