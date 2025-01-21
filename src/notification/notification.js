@@ -1,12 +1,12 @@
 const vapidPublicKey = 'BDoDrobLJcJoM3g7U821ccGoaTRqwEfMuqkc7DeH1cDWhEHOXdQm_s9j3rIQLTxGM72sVDeMWPmQDsXnGsBKB9w';
 
 // Replace this with a dynamically injected Ngrok URL at build time
-const serverBaseURL = 'http://103.75.196.220:3030';
+const serverBaseURL = 'http://localhost:3001';
 
 export async function subscribeToNotifications() {
   if ('serviceWorker' in navigator) {
     try {
-      const registration = await navigator.serviceWorker.register('/react-pwa-push-notification/service-worker.js');
+      const registration = await navigator.serviceWorker.register('/service-worker.js');
       const subscription = await registration.pushManager.subscribe({
         userVisibleOnly: true,
         applicationServerKey: urlBase64ToUint8Array(vapidPublicKey),

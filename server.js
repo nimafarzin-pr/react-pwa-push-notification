@@ -58,6 +58,6 @@ app.post('/send-notification', async (req, res) => {
 
 
 
-// app.listen(port, () => {
-//   console.log(`Push backend running at http://localhost:${port}`);
-// });
+app.listen(3001, () => {
+  console.log(`Push backend running at http://localhost:3001`);
+});
