@@ -1,7 +1,7 @@
 {
   "name": "my-pwa",
   "version": "0.1.0",
-  "homepage": "https://nimafarzin-pr.github.io/react-pwa-push-notification/",
+  "homepage": "https://nimafarzin-pr.github.io/react-pwa-push-notification",
   "private": true,
   "dependencies": {
     "body-parser": "^1.20.3",
