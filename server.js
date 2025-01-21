@@ -4,7 +4,6 @@ const webPush = require('web-push');
 const cors = require('cors');
 
 const app = express();
-const port = 3000;
 
 app.use(express.static('public'));
 
@@ -55,9 +54,7 @@ app.post('/send-notification', async (req, res) => {
   return res.status(200).json({ message: 'Notification sent!' });
 });
 
-app.listen(3000, '0.0.0.0',() => {
-  console.log(`Push backend running at http://localhost:${port}`);
-});
+
 
 
 

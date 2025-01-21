@@ -1,7 +1,7 @@
 const vapidPublicKey = 'BDoDrobLJcJoM3g7U821ccGoaTRqwEfMuqkc7DeH1cDWhEHOXdQm_s9j3rIQLTxGM72sVDeMWPmQDsXnGsBKB9w';
 
 // Replace this with a dynamically injected Ngrok URL at build time
-const serverBaseURL = 'http://localhost:3000';
+const serverBaseURL = 'http://103.75.196.220:3030';
 
 export async function subscribeToNotifications() {
   if ('serviceWorker' in navigator) {
